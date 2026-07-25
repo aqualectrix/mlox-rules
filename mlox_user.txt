@@ -3397,6 +3397,9 @@ Beware the Sixth House.esp
 	You are using the full "Tribunal Rebalance" plugin alongside one or more of the modular plugins. Use either only the full plugin or any combination of the modular plugins.
 tribunal rebalance.esp
 [ANY	tribunal npc rebalance.esp
+		dark brotherhood armor nerf.ESP
+		gedna relvel rebalance.ESP
+		tribunal throwing weapon rebalance.ESP
   		tribunal more goblins.esp
   		tribunal goblin rebalance.esp]
 
