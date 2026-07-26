@@ -3694,13 +3694,34 @@ ESEP_Improved_Inns_Expanded.esp
 
 ;; MDMD Patches
 ; Added by JosephMcKean
+[Patch]
+ A compatibility patch is available to merge conflicting changes to NPCs. ( Ref: https://www.nexusmods.com/morrowind/mods/49232 )
+Expansions Integrated MDMD Patch.ESP
+[ALL MDMD - More Deadly Morrowind Denizens.ESP
+     [ANY Expansions Integrated.esp
+          Expansions Integrated - Fewer BM Creatures.esp
+          Tribunal Integrated.esp]]
+
 [Order]
 MDMD - More Deadly Morrowind Denizens.ESP
 Expansions Integrated MDMD Patch.ESP
 
+; Older name for Expansions Integrated MDMD Patch.ESP
 [Order]
 MDMD - More Deadly Morrowind Denizens.ESP
 MDMD Expansions Integrated Patch.ESP
+
+[Order]
+Expansions Integrated.esp
+Expansions Integrated MDMD Patch.ESP
+
+[Order]
+Expansions Integrated - Fewer BM Creatures.esp
+Expansions Integrated MDMD Patch.ESP
+
+[Order]
+Tribunal Integrated.esp
+Expansions Integrated MDMD Patch.ESP
 
 [Conflict]
 	Use only one of these plugins.
