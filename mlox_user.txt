@@ -3391,6 +3391,7 @@ Beware the Sixth House.esp
 [ANY	Sixth House Rebalance.esp
   		Ash Vampire Script Fix.esp
   		Keening belongs to odros.esp
+		Unused Dagoth Placement.ESP
   		Sunder and keening hurt on pickup.esp]
 
 [Conflict]
