@@ -3569,8 +3569,31 @@ Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
 Creatures_RP_*.esp
 Bob's Diverse Dagoths*.esp
 
+; Darknut's Greater Dwemer Ruins
 [Order]
 DN-GDRv<VER>*.esp
+Bob's Diverse Dagoths-DNGDR*.esp
+
+[Requires]
+ Don't use a DNGDR version of Divine Dagoths without Darknut's Greater Dwemer Ruins ( Ref: https://www.nexusmods.com/morrowind/mods/45536 )
+[ANY Bob's Diverse Dagoths - DNGDR.esp
+     Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp]
+DN-GDRv<VER>*.esp
+
+[Conflict]
+ Use one of the DNGDR version of Divine Dagoths when also using Darknut's Greater Dwemer Ruins (and don't forget to merge your objects!) ( Ref: Ref: https://www.nexusmods.com/morrowind/mods/45536 )
+[ANY Bob's Diverse Dagoths.esp
+     Bob's Diverse Dagoths - Hostile Gilvoth.esp]
+DN-GDRv<VER>*.esp
+
+;; "The Diverse Dagoths plugin should be compatible with Great House Dagoth... if you load DD last and use an object-merger" ( Ref: https://www.nexusmods.com/morrowind/mods/45536 )
+[Order]
+Great House Dagoth*.esp
+Bob's Diverse Dagoths*.esp
+
+;; ""The Diverse Dagoths plugin should be compatible with... The Tribe Unmourned if you load DD last and use an object-merger" ( Ref: https://www.nexusmods.com/morrowind/mods/45536 )
+[Order]
+The Tribe Unmourned*.esp
 Bob's Diverse Dagoths*.esp
 
 [Conflict]
